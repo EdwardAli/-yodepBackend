@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-s5$xui#hikbtp)ltr%!d3jms8gq(^+09r7m1t=cd4#4%8w+qrl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh','127.0.0.1' ]
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh' ]
 
 
 # Application definition
@@ -136,12 +136,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yodep_db',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST':'127.0.0.1',
-        'PORT': '3306',
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'yodep_db',
+        # 'USER': 'root',
+        # 'PASSWORD': '',
+        # 'HOST':'127.0.0.1',
+        # 'PORT': '3306',
     }
 }
 
